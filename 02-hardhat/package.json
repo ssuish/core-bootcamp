@@ -1,7 +1,7 @@
 {
 	"dependencies": {
 		"dotenv": "^16.4.7",
-		"hardhat": "^2.22.18"
+		"hardhat": "^2.8.0"
 	},
 	"devDependencies": {
 		"@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
