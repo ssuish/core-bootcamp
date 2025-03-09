@@ -7,13 +7,14 @@
 const hre = require("hardhat");
 
 async function main() {
-  // Contract, 
 
-  const contract = await hre.ethers.deployContract("DeployToken", [1000000000000000000000000n]);
+  const contract = await hre.ethers.deployContract("MyNFT");
 
   await contract.waitForDeployment();
 
   console.log(`Deployed to ${contract.target}`);
+
+  // command: npx hardhat run --network core_testnet scripts/deploy.js
 }
 
 // We recommend this pattern to be able to use async/await everywhere

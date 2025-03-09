@@ -30,7 +30,7 @@ const account = privateKeyToAccount(`0x${privateKey}` as Hex);
   // });
   // const { contractAddress } = await client.getTransactionReceipt({ hash });
 
-  const contractAddress = '0x600d4a8cf5caefdeca95592fbb1c48a0c5a75c7d';
+  const contractAddress = '0x65833E8e0550596ddAFF08b1ab902d6CED5c82C9';
 
   if (contractAddress) {
     const contract = getContract({

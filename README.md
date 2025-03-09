@@ -76,3 +76,6 @@ For change request, please clone and submit pull-request. Or e-mail at mark@theb
 ## 02-Hardhat
 
 0x57Ae30569c59Ddec3160EB224adb19Df0BCD548d
+
+final
+0x5802322599d30a6a10e8ac0cf826387608c641a74cf26687d8aac24841fd91f3

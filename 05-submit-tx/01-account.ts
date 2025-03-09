@@ -24,4 +24,6 @@ const account = privateKeyToAccount(privateKey as Hex);
   });
 
   console.log('nonce', nonce);
+
+  // How to run typescript file
 })();
